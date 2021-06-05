@@ -1,185 +1,234 @@
-html {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    display: block;
-    background-color: white;
-    font-family: 'Merriweather', serif;
-}
-
-h1 {
-    margin-top: 0;
-    font-weight: 700;
-    font-family: 'Raleway', sans-serif;
-}
-
-h2 {
-    font-family: 'Raleway', sans-serif;
-    position: relative;
-    font-size: 1rem;
-    margin: 1rem 0 3rem 1rem;
-}
-
-h2::after {
-    display: block;
-    content: "";
-    height: 3px;
-    width: 55px;
-    background-color: #629edb;
-    position: absolute;
-    left: -16px;
-    bottom: -24px;
-}
-
-p {
-    font-family: 'Merriweather', serif;
-    font-size: 0.7rem;
-    font-weight: 400;
-    margin: 1rem;
-}
-
-p b {
-    font-family: 'Merriweather', serif;
-    font-weight: 900;
-    color: black;
-}
-
-header {
-    background-image: linear-gradient(hsla(0 0% 0% / 0.3), hsla(0 0% 0% / 0.3)), url("/du-06---island-petrcoding/images/island-hlavicka.jpg");
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding: 1.5rem;
-    color: white;
-}
-
-.nav-menu {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin: 1.5rem 0 3rem 0;
-}
-
-.nav-menu a {
-    text-decoration: none;
-    color: rgba(168, 165, 165, 0.952);
-    font-family: 'Merriweather', serif;
-    font-weight: 300;
-    font-size: 0.6rem;
-    border-bottom: 1px solid rgba(168, 165, 165, 0.055);
-    padding: 5px;
-}
-
-.author {
-    font-style: italic;
-    color: #f5f5f5bd;
-}
-
-img {
-    max-width: 100%;
-    Height: auto;
-}
-
-.img-article {
-    margin-top: 1.5rem;
-}
-
-.img-source {
-    text-align: center;
-    font-size: 0.5rem;
-    color: rgba(168, 165, 165, 0.952);
-    margin: 0 0 2.5rem 0;
-}
-
-.img-source a,
-.gal-source a {
-    color: rgba(168, 165, 165, 0.952);
-}
-
-.gal-source {
-    text-align: center;
-    font-size: 0.5rem;
-    color: rgb(109, 106, 106);
-    margin: 0.3rem 0 1rem 0;
-}
-
-.gal-source b {
-    color: rgb(82, 81, 81);
-    font-size: 1.2em;
-}
-
-footer {
-    margin-bottom: 0;
-    padding: 1rem 0 0.5rem 1rem;
-    background-color: #d8d8d881;
-    color: rgba(117, 117, 117, 0.952);
-    font-size: 8px;
-    line-height: 1.7;
-}
-
-footer a {
-    color: rgba(117, 117, 117, 0.952);
-    font-size: 10px;
-}
-
-.lastsource {
-    margin-bottom: 0;
-}
-
-.package {
-    padding-bottom: 1rem;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.473);
-}
-
-.txt-outro {
-    margin-bottom: 0;
-    margin-left: 0;
-}
-
-.txt-middle {
-    margin-top: 0;
-    margin-left: 0;
-}
-
-img:hover {
-    animation: shake 0.5s;
-    animation-iteration-count: 1;
-}
-
-@keyframes shake {
-    0% {
-        transform: translate(1px, 1px) rotate(0deg);
+    html {
+        box-sizing: border-box;
     }
-    10% {
-        transform: translate(-1px, -2px) rotate(-1deg);
+    
+    body {
+        margin: 0;
+        display: block;
+        background-color: #f5f5f5;
+        ;
+        font-family: 'Merriweather', serif;
+        line-height: 1.7;
     }
-    20% {
-        transform: translate(-3px, 0px) rotate(1deg);
+    
+    .package {
+        padding-bottom: 1rem;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.233);
+        background-color: white;
+        max-width: 960px;
+        height: auto;
+        margin: auto;
     }
-    30% {
-        transform: translate(3px, 2px) rotate(0deg);
+    
+    h1 {
+        margin-top: 0;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
     }
-    40% {
-        transform: translate(1px, -1px) rotate(1deg);
+    
+    h2 {
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        font-size: 1rem;
+        margin: 1rem 0 3rem 1rem;
     }
-    50% {
-        transform: translate(-1px, 2px) rotate(-1deg);
+    
+    h2::after {
+        display: block;
+        content: "";
+        height: 3px;
+        width: 55px;
+        background-color: #629edb;
+        position: absolute;
+        left: -16px;
+        bottom: -24px;
     }
-    60% {
-        transform: translate(-3px, 1px) rotate(0deg);
+    
+    p {
+        font-family: 'Merriweather', serif;
+        font-size: 0.7rem;
+        font-weight: 400;
+        margin: 1rem;
     }
-    70% {
-        transform: translate(3px, 1px) rotate(-1deg);
+    
+    p b {
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
+        color: black;
     }
-    80% {
-        transform: translate(-1px, -1px) rotate(1deg);
+    
+    header {
+        background-image: linear-gradient(hsla(0 0% 0% / 0.3), hsla(0 0% 0% / 0.3)), url("/du-06---island-petrcoding/images/island-hlavicka.jpg");
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding: 1.5rem;
+        color: white;
     }
-    90% {
-        transform: translate(1px, 2px) rotate(0deg);
+    
+    .nav-menu {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 3rem 0;
+        padding-top: 1rem;
     }
-    100% {
-        transform: translate(1px, -2px) rotate(-1deg);
+    
+    .nav-menu a {
+        text-decoration: none;
+        color: rgba(168, 165, 165, 0.952);
+        font-family: 'Merriweather', serif;
+        font-weight: 300;
+        font-size: 0.6rem;
+        border-bottom: 1px solid rgba(168, 165, 165, 0.096);
+        padding: 5px;
+        margin-top: 0;
     }
-}
+    
+    .author {
+        font-style: italic;
+        color: #f5f5f5bd;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .img-article {
+        margin-top: 1.5rem;
+    }
+    
+    .img-source {
+        text-align: center;
+        font-size: 0.5rem;
+        color: rgba(168, 165, 165, 0.952);
+        margin: 0 0 2.5rem 0;
+    }
+    
+    .img-source a,
+    .gal-source a {
+        color: rgba(168, 165, 165, 0.952);
+    }
+    
+    .gal-source {
+        text-align: center;
+        font-size: 0.5rem;
+        color: rgb(109, 106, 106);
+        margin: 0.3rem 0 1rem 0;
+    }
+    
+    .gal-source b {
+        color: rgb(82, 81, 81);
+        font-size: 1.2em;
+    }
+    
+    footer {
+        margin-bottom: 0;
+        padding: 1rem 0 0.5rem 1rem;
+        background-color: #d8d8d881;
+        color: rgba(117, 117, 117, 0.952);
+        font-size: 8px;
+        line-height: 1.7;
+    }
+    
+    footer a {
+        color: rgba(117, 117, 117, 0.952);
+        font-size: 10px;
+    }
+    
+    .lastsource {
+        margin-bottom: 0;
+    }
+    
+    .txt-outro {
+        margin-bottom: 0;
+        margin-left: 0;
+        color: rgba(117, 117, 117, 0.952);
+    }
+    
+    .txt-middle {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    @media screen and (min-width: 600px) {
+        .nav-menu {
+            margin: 0.5rem 1rem;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .border {
+            border: 1px solid rgba(168, 165, 165, 0.096);
+        }
+        .nav-menu a {
+            border-top: 1px solid rgba(168, 165, 165, 0.096);
+            padding: 0.3rem 2rem;
+            flex-grow: 1;
+        }
+        .position {
+            position: relative;
+        }
+        .img-source {
+            position: absolute;
+            right: 1rem;
+            bottom: 1rem;
+            margin: 0;
+            color: rgba(255, 255, 255, 0.658);
+        }
+        .img-source a {
+            color: rgba(255, 255, 255, 0.658);
+        }
+        #gallery article {
+            display: flex;
+            position: relative;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .gal-source a,
+        .gal-source b {
+            color: white;
+        }
+        .img-container {
+            width: 50%;
+            overflow: hidden;
+            position: relative;
+        }
+        .img-container img {
+            display: block;
+        }
+        .img-container p {
+            width: 100%;
+            position: absolute;
+            text-align: center;
+            margin: 0;
+            padding: 11px 0;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.514);
+        }
+        .img-container:hover img {
+            transform: scale(1.1);
+            transition-duration: 0.4s;
+        }
+        .img-container:hover p {
+            transform: translate(0, -50px);
+            transition-duration: 0.4s;
+        }
+        .package {
+            padding-bottom: 0;
+            background-color: #f5f5f5;
+        }
+    }
+    
+    @media screen and (min-width: 960px) {
+        header {
+            width: 1200px;
+        }
+        footer {
+            margin: auto;
+            max-width: 960px;
+        }
+        main {
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.473);
+        }
+    }
